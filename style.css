@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(37, 35, 35);
+    padding: 10px;
+}
+
+.header-logo {
+    font-family: lobster;
+    color: white;
+}
+
+.header-nav {
+    display: flex;
+    list-style: none;
+}
+
+.header-nav li {
+    margin-left: 20px;
+}
+
+.header-nav li a {
+    text-decoration: none;
+    color: bisque;
+}
